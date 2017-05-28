@@ -1,0 +1,29 @@
+Instructions on how to run the program:
+This program must have connections to the "news" database  
+This program is writen in python3 please run this program by typing the following:
+python3 dbProject.py
+ 
+
+Description of program design:
+This program does NOT rely on any additionl created views. All queries are single line querys. Queris are defined in main portion of the code for referance later. A function get_news is used to call the database queries with an argument "sqlQuery" passed that contains the plsql query. A function print_list dispalys the results of query calls given a "Heading" argument to specify the results to be displayed and a "lineEnding" argument to specify the type of result displayed.
+
+
+Application code style was tested on dbProjec.py and conforms to pep8 Standards
+
+
+Output of code:
+
+The most popular articles are: 
+Candidate is jerk, alleges rival - 338647 views
+Bears love berries, alleges bear - 253801 views
+Bad things gone, say good people - 170098 views
+
+The most popular Authors are: 
+Ursula La Multa - 507594 views
+Rudolf von Treppenwitz - 423457 views
+Anonymous Contributor - 170098 views
+Markoff Chaney - 84557 views
+
+The days that we had more than 1% errors are : 
+JULY      17, 2016 - 2.26% errors
+
