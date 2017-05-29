@@ -16,15 +16,15 @@
 
 *    Downlad the data files [here:](https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip)
  
-*    On the running vagrant virtual machine in the folder that has the above downloaded file run the following from your psql command line (this will extract and instal the three news tables):
-	psql -d news -f newsdata.sql
+* On the running vagrant virtual machine in the folder that has the above downloaded file run the following from your psql command line (this will extract and instal the three news tables):
+    * psql -d news -f newsdata.sql
  
-*    Switch to the directory that this README.md file is located
+* Switch to the directory that this README.md file is located
 
-*    Run this code by typeing the following python 3 command:
-	python3 dbProject.py
+* Run this code by typeing the following python 3 command:
+    * python3 dbProject.py
 
-*    Bask in the beauty of the output!!!
+* Bask in the beauty of the output!!!
 
 
 
@@ -44,19 +44,19 @@ The code works with the (unchanged) database schema from the lab description.The
 
 
 ## Functions:
- *	Function used to connect to database "news"
-		conect_db(database_name=DBNAME):
- *	Function to disconnect from database
-		disconnect_db(database_connection):
- *	Function used to query database "news" with query passed as argument
-		get_news(db_cursor, sqlQuery):
- *	Function used to iterated through results of query
-		print_list(db_cursor, sqlQuery, Heading, lineEnding):
+* Function used to connect to database "news"
+    * conect_db(database_name=DBNAME):
+* Function to disconnect from database
+    * disconnect_db(database_connection):
+* Function used to query database "news" with query passed as argument
+    * get_news(db_cursor, sqlQuery):
+* Function used to iterated through results of query
+    * print_list(db_cursor, sqlQuery, Heading, lineEnding):
 
 
 
 ## Output of code:
-'''
+```
 The most popular articles are: 
 Candidate is jerk, alleges rival - 338647 views
 Bears love berries, alleges bear - 253801 views
@@ -70,4 +70,4 @@ Markoff Chaney - 84557 views
 
 The days that we had more than 1% errors are : 
 JULY      17, 2016 - 2.26% errors
-'''
+```
