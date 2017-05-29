@@ -11,22 +11,22 @@
 
 ##Instructions and pre-requisite to run the program:
 
-*1    Load Udacity's vagrant virtual machine 
-	https://classroom.udacity.com/nanodegrees/nd004/parts/8d3e23e1-9ab6-47eb-b4f3-d5dc7ef27bf0/modules/bc51d967-cb21-46f4-90ea-caf73439dc59/lessons/5475ecd6-cfdb-4418-85a2-f2583074c08d/concepts/14c72fe3-e3fe-4959-9c4b-467cf5b7c3a0
+*    Load Udacity's vagrant virtual machine [here:] 
+	(https://classroom.udacity.com/nanodegrees/nd004/parts/8d3e23e1-9ab6-47eb-b4f3-d5dc7ef27bf0/modules/bc51d967-cb21-46f4-90ea-caf73439dc59/lessons/5475ecd6-cfdb-4418-85a2-f2583074c08d/concepts/14c72fe3-e3fe-4959-9c4b-467cf5b7c3a0)
 (this has the psql database running in the background) 
 
-*2    Downlad the data files here:
-	https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip
+*    Downlad the data files [here:]
+	(https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip)
  
-*3    On the running vagrant virtual machine in the folder that has the above downloaded file run the following from your psql command line (this will extract and instal the three news tables):
+*    On the running vagrant virtual machine in the folder that has the above downloaded file run the following from your psql command line (this will extract and instal the three news tables):
 	psql -d news -f newsdata.sql
  
-*4    Switch to the directory that this README.md file is located
+*    Switch to the directory that this README.md file is located
 
-*5    Run this code by typeing the following python 3 command:
+*    Run this code by typeing the following python 3 command:
 	python3 dbProject.py
 
-*6    Bask in the beauty of the output!!!
+*    Bask in the beauty of the output!!!
 
 
 
